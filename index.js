@@ -8,7 +8,7 @@ app.use(express.json());
 
 // Sample route
 app.get("/", (req, res) => {
-  res.send("Hello World! 🚀 Your server is running normally");
+  res.send("Hello World! 🚀 Your server is running smoothly");
 });
 
 // Another API endpoint
