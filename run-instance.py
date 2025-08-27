@@ -4,6 +4,6 @@ response = client.run_instances(
     ImageId='ami-00ca32bbc84273381',
     InstanceType='t2.micro',
     KeyName='vaultaccess',
-    MaxCount=2,
+    MaxCount=3,
     MinCount=1,
 )
