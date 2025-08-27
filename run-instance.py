@@ -1,4 +1,4 @@
-import linux
+import boto3
 import os
 client = boto3.client('ec2')
 response = client.run_instances(
